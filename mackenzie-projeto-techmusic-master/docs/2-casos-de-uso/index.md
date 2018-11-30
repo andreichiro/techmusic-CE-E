@@ -7,11 +7,11 @@ A principal parte do código utiliza um for, utilizando: i = 0 e a variável da 
 Identificando uma outra variável com o digitalRead de um pino digital, é possível criar um if dentro do for para isso, e um segundo if tendo como condição o estado do pino ser low. Nesse caso, haverá um sendNoteOn, utilizando as variáveis note[i], correspondente a nota, a velocity 127 (sendo 0 no caso do estado high) e o canal midi escolhido.
 
 for 
-(int i=0; i<botoes; i++) 
+(int i=0; 
+i<botoes; i++) 
 {
     estadobotao[i] = digitalRead(botao[i]);
   }
-  estadobotao[1] = !estadobotao[1];
   for 
   (int i=0; i<botoes; i++) {
 
