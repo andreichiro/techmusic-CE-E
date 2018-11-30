@@ -8,4 +8,5 @@ O projeto parte do princípio que mesas de DJ são caras e pouco customizáveis,
 Em termos de hardware, o projeto utilizará as seguintes peças, muitas das quais terão de ser soldadas: slides, parafusos, nozes, gabinete, resistor, leds, shifters, botões, Arduino Uno, multiplexadores e rotativos.
 Em termos de software, o projeto utilizará a seguinte biblioteca: MIDI
 
+Vídeo de funcionamento disponível.
   
